@@ -231,7 +231,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/josephwzx
   card_announcement:
     enable: true
     content: This is my Blog
@@ -281,7 +281,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: false
-  publish_date: 2/1/2024 00:00:00
+  publish_date: 02/01/2024 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
