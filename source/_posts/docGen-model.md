@@ -12,6 +12,9 @@ In this blog post, we'll embark on a detailed exploration of the model training 
 
 The first step in any data science project is preparing the data. For DocGenerator, we rely on the extensive and diverse [CodeSearchNet](https://github.com/github/CodeSearchNet)
  dataset, which includes millions of code snippets and their corresponding documentation comments across several programming languages, including Java. This dataset is pivotal for training our model to understand and generate accurate docstrings.
+ ![CodeSearchNet Dataset](https://picbed.josephweng.com/img/codesearchnet_set.png "CodeSearchNet Dataset")
+
+
 
 ### Cleaning and Tokenization
 

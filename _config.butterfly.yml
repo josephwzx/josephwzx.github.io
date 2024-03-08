@@ -34,27 +34,27 @@ code_word_wrap: false
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/josephwzx || Github || '#24292e'
-  fas fa-envelope: josephzxw@outloo.com || Email || '#4a7dbe'
+  fas fa-envelope: josephzxw@outlook.com || Email || '#4a7dbe'
 
 # Image (圖片設置)
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/Jlogo2.jpg
+favicon: https://picbed.josephweng.com/img/Jlogo2.jpg
 
 # Avatar (頭像)
 avatar:
-  img: /img/joseph.jpg
+  img: https://picbed.josephweng.com/img/joseph.jpg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: /img/top_img.jpg
+index_img: https://picbed.josephweng.com/img/top_img.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: /img/top_img.jpg
+default_top_img: https://picbed.josephweng.com/img/top_img.jpg
 
 # The banner image of archive page
 archive_img:
