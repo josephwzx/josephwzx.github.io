@@ -232,8 +232,24 @@ aside:
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/josephwzx
-  card_announcement:
+  card_experience:
     enable: true
+    headline: "My Experience"
+    items:
+      - title: "Resarch Assistant"
+        company: "Carnegie Mellon University"
+        duration: "Jun 2023 - Current"
+        description: "Capybara DBMS development and course designing."
+        logo: "https://picbed.josephweng.com/img/cmu_logo.png"
+      - title: "Software Engineer"
+        company: "I Got Games (IGG)"
+        duration: "Jul 2021 - Aug 2021"
+        description: "Game development and AI solutions for auto testing."
+        logo: "https://picbed.josephweng.com/img/igg_logo.jpeg"
+
+
+  card_announcement:
+    enable: false
     content: This is my Blog
   card_recent_post:
     enable: true
@@ -313,9 +329,9 @@ readmode: true
 
 # dark mode
 darkmode:
-  enable: true
+  enable: false
   # Toggle Button to switch dark/light mode
-  button: true
+  button: false
   # Switch dark/light mode automatically (自動切換 dark mode和 light mode)
   # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
@@ -719,7 +735,7 @@ clickShowText:
 
 # Default display mode (網站默認的顯示模式)
 # light (default) / dark
-display_mode: light
+display_mode: dark
 
 # Beautify (美化頁面顯示)
 beautify:
@@ -733,14 +749,15 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family:
-  code-font-family:
+  font-family: "Mukta, sans-serif"
+  code-font-family: "Fira Code, Consolas, monospace"
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:
-  font_link:
-  font-family:
+  font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
+  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:

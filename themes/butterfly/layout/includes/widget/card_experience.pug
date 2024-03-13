@@ -1,0 +1,16 @@
+if theme.aside.card_experience.enable
+  .card-widget.card-experience
+    .item-headline
+      i.fas.fa-briefcase
+      span= _p('Work Experience')
+    .aside-list
+      each exp in theme.aside.card_experience.items
+        .aside-list-item
+          if exp.logo
+            .experience-logo
+              img(src=url_for(exp.logo) alt=exp.company)
+          .experience-detail
+            .experience-company= exp.company
+            .experience-title= exp.title
+            .experience-duration= exp.duration
+            .experience-description= exp.description
