@@ -2958,7 +2958,7 @@ h1.page-title + .tag-cloud-list {
   color: #141416;
 }
 #aside-content #card-toc .toc-content .toc-link.active {
-  background: #757575;
+  background: #fff;
   color: #fff;
 }
 #aside-content .sticky_layout:only-child > :first-child {
@@ -3838,7 +3838,7 @@ h1.page-title + .tag-cloud-list {
   text-align: center;
 }
 #pagination .page-number.current {
-  background: #616161;
+  background: #111;
   color: var(--white);
 }
 #pagination .pagination-info {
