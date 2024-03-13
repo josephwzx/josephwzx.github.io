@@ -1478,7 +1478,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Mukta, sans-serif;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1579,6 +1579,13 @@ a {
 }
 a:hover {
   color: #141416;
+}
+#site-title,
+#site-subtitle,
+.site-name,
+#aside-content .author-info__name,
+#aside-content .author-info__description {
+  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif;
 }
 .is-center {
   text-align: center;
@@ -1750,7 +1757,7 @@ figure.highlight pre .javascript .function {
 #article-container pre,
 #article-container code {
   font-size: var(--global-font-size);
-  font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  font-family: Fira Code, Consolas, monospace !important;
 }
 #article-container code {
   padding: 2px 4px;
@@ -2748,6 +2755,81 @@ h1.page-title + .tag-cloud-list {
 }
 #aside-content .aside-list > .aside-list-item .content > .title:hover,
 #aside-content .aside-list > .aside-list-item .content > .comment:hover {
+  color: #141416;
+}
+#aside-content .aside-list > .aside-list-item .experience-logo {
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-right: 10px;
+}
+#aside-content .aside-list > .aside-list-item .experience-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#aside-content .aside-list > .aside-list-item .experience-detail {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -o-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding-left: 10px;
+}
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-title,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-company,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-duration,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-description {
+  display: block;
+  color: #9e9e9e;
+  font-size: 85%;
+}
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-title.experience-title,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-company.experience-title,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-duration.experience-title,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-description.experience-title,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-title.experience-company,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-company.experience-company,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-duration.experience-company,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-description.experience-company {
+  font-weight: bold;
+  color: var(--font-color);
+  font-size: 80%;
+}
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-title.experience-description,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-company.experience-description,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-duration.experience-description,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-description.experience-description {
+  -webkit-line-clamp: 2;
+  line-height: 1.5;
+}
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-title.experience-description:hover,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-company.experience-description:hover,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-duration.experience-description:hover,
+#aside-content .aside-list > .aside-list-item .experience-detail .experience-description.experience-description:hover {
   color: #141416;
 }
 #aside-content .aside-list > .aside-list-item.no-cover {
