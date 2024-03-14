@@ -4,7 +4,11 @@ date: 2024-03-14 02:51:40
 tags: 
     - database
     - C++
-cover: # Capybara DBMS: Query Processor Introduction
+cover: https://picbed.josephweng.com/img/cover/db_io.svg
+description: File I/O layer of CapybaraDB
+---
+
+# Capybara DBMS: Query Processor Introduction
 
 Capybara DBMS introduces a robust Query Processor as part of its architecture, designed to facilitate efficient interaction with databases. The Query Processor is the linchpin that allows clients to perform meaningful operations on databases by processing Data Definition Language (DDL) and Data Manipulation Language (DML) statements. This document provides an overview of the components and functionalities of the Query Processor within Capybara DBMS.
 

@@ -3,6 +3,7 @@ title: leetcode notes - greedy
 date: 2024-03-09 23:15:14
 tags: leetcode
 cover: https://picbed.josephweng.com/img/cover/code_thinking.svg
+description: Leetcode thinking of Greedy
 ---
 # leetcode notes - greedy
 

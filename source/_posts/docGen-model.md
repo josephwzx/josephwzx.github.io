@@ -3,6 +3,7 @@ title: docGen - Model Training for Automatic Documentation
 date: 2024-03-08 01:02:27
 tags: machine learning
 cover: https://picbed.josephweng.com/img/cover/docGen.svg
+description: Model training of DocGen
 ---
 
 # docGen: Model Training for Automatic Documentation

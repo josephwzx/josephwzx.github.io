@@ -5,6 +5,7 @@ tags:
     - database
     - C++
 cover: https://picbed.josephweng.com/img/cover/db_cmd.svg
+description: Command processing layer of CapybaraDB
 ---
 
 # Capybara DBMS: Query Processor Introduction
