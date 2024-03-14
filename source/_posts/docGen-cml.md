@@ -1,7 +1,8 @@
 ---
 title: docGen - Command Line Tool
 date: 2024-03-08 01:38:22
-tags:
+tags: machine learning
+cover: https://picbed.josephweng.com/img/cover/docGen.svg
 ---
 
 # Documentation Generator Tool

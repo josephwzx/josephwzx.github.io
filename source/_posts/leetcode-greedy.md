@@ -1,7 +1,8 @@
 ---
 title: leetcode notes - greedy
 date: 2024-03-09 23:15:14
-tags:
+tags: leetcode
+cover: https://picbed.josephweng.com/img/cover/code_thinking.svg
 ---
 # leetcode notes - greedy
 

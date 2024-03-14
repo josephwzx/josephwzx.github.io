@@ -87,7 +87,7 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    https://picbed.josephweng.com/img/cover/default_cover.png
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -623,21 +623,21 @@ site_verification:
 
 theme_color:
   enable: true
-  main: "#141416" # Dark grey for main elements
-  paginator: "#111111" # Slightly lighter grey for the paginator, providing a subtle contrast
-  button_hover: "#757575" # Medium grey for button hover, distinguishable against other elements
-  text_selection: "#9e9e9e" # Light grey for text selection, ensuring visibility
-  link_color: "#cfcfcf" # Light grey for links, offering clear readability against dark backgrounds
-  meta_color: "#9e9e9e" # Light grey for meta elements, for better visibility
-  hr_color: "#333333" # Very dark grey for horizontal rules, subtle and sleek
-  code_foreground: "#ffffff" # White for code text, ensuring maximum readability
-  code_background: "rgba(66, 66, 66, .05)" # Very dark grey with low opacity for code background, subtly differentiating code blocks
-  toc_color: "#ffffff" # Medium grey for table of contents, keeping with the theme while easy on the eyes
-  blockquote_padding_color: "#424242" # Dark grey, matching the main theme color
-  blockquote_background_color: "#2b2b2b" # Slightly darker grey for blockquote background, for a subtle contrast
-  scrollbar_color: "#424242" # Dark grey for scrollbar, consistent with the main theme color
-  meta_theme_color_light: "#19232D" # Dark grey for light mode meta theme color, blending with the overall dark theme
-  meta_theme_color_dark: "#121212" # Deep dark grey for dark mode, maximizing contrast with white text
+  main: "#000000" 
+  paginator: "#111111" 
+  button_hover: "#011AF9" 
+  text_selection: "#9e9e9e" 
+  link_color: "#cfcfcf"
+  meta_color: "#9e9e9e" 
+  hr_color: "#9e9e9e" 
+  code_foreground: "#ffffff" 
+  code_background: "rgba(66, 66, 66, .05)" 
+  toc_color: "#011AF9"
+  blockquote_padding_color: "#011AF9" 
+  blockquote_background_color: "#011AF9" 
+  scrollbar_color: "#424242" 
+  meta_theme_color_light: "#19232D" 
+  meta_theme_color_dark: "#121212" 
 
 
 # The top_img settings of home page
@@ -749,8 +749,8 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family: "Mukta, sans-serif"
-  code-font-family: "Fira Code, Consolas, monospace"
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
