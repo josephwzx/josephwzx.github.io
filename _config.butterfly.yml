@@ -87,18 +87,17 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    https://picbed.josephweng.com/img/cover/default_cover.png
+    https://picbed.josephweng.com/img/cover/chat.svg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: /img/friend_404.gif
-  post_page: /img/404.jpg
-
+  flink: https://picbed.josephweng.com/img/cover/page_not_found.svg
+  post_page: https://picbed.josephweng.com/img/cover/page_not_found.svg
 # A simple 404 page
 error_404:
   enable: false
   subtitle: 'Page Not Found'
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: https://picbed.josephweng.com/img/cover/page_not_found.svg
 
 post_meta:
   page: # Home Page

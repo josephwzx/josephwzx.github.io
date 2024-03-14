@@ -1,5 +1,5 @@
 ---
-title: Capybara_cmd
+title: Capybara - Command Processing Layer
 date: 2024-03-14 02:51:04
 tags: 
     - database
