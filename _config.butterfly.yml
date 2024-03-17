@@ -34,7 +34,7 @@ code_word_wrap: false
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/josephwzx || Github || '#FFFFFF'
-  fas fa-envelope: josephzxw@outlook.com || Email || '#FFFFFF'
+  fas fa-envelope: mailto:josephzxw@outlook.com || Email || '#FFFFFF'
 
 # Image (圖片設置)
 # --------------------------------------
