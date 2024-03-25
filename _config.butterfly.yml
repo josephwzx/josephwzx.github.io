@@ -53,10 +53,10 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://picbed.josephweng.com/img/top_img.jpg
+index_img: transparent
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://picbed.josephweng.com/img/top_img.jpg
+default_top_img: 400px
 
 # The banner image of archive page
 archive_img:
@@ -661,15 +661,15 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: "#141416"
+background: url(https://picbed.josephweng.com/img/top_img.jpg)
 
 # Footer Background
-footer_bg: false
+footer_bg: transparent
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
-  header: true
-  footer: true
+  header: false
+  footer: false
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside_bottom:
@@ -936,8 +936,11 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <link rel="stylesheet" href="/css/universe.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
+    - <canvas id="universe"></canvas>
+    - <script defer src="/js/universe.js"></script>
     # - <script src="xxxx"></script>
 
 # CDN
