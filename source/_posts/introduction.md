@@ -5,10 +5,15 @@ tags:
 cover: https://picbed.josephweng.com/img/cover/profile.svg
 description: An introduction of Joseph! I am open to work!
 sticky: 1
-disable_top_img: true
 ---
 
 **Hello! I’m Zhaoxing Weng**, you can call me Joseph. Welcome to my digital hub, where the fusion of technology, innovation, and creativity takes center stage.
+
+
+<p align="center">
+  <img src="https://picbed.josephweng.com/photos/LosAngeles/11.BMP" alt="Profile Pic" width="50%"/>
+</p>
+
 
 I’m currently navigating the final year of my Master of Software Engineering at Carnegie Mellon University, after completing a Bachelor of Computer Science with distinction at Wuhan University in China. My journey in software engineering is paved with a blend of academic excellence, practical experience, and a continuous quest for learning. Courses like Foundations of Computer Systems and Data Science for Software Engineering aren't just items on my transcript; they're chapters of an ongoing adventure in tech.
 
