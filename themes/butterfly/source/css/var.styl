@@ -3,6 +3,7 @@ $bright-blue = #49B1F5
 $strong-cyan = #00c4b6
 $light-orange = #FF7242
 $light-red = #F47466
+$my-color = #011AF9
 $themeColorEnable = hexo-config('theme_color') && hexo-config('theme_color.enable')
 $theme-color = $themeColorEnable && hexo-config('theme_color.main') ? convert(hexo-config('theme_color.main')) : $bright-blue
 $theme-paginator-color = $themeColorEnable && hexo-config('theme_color.paginator') ? convert(hexo-config('theme_color.paginator')) : $strong-cyan
@@ -55,7 +56,7 @@ $blockquote-background-color = $themeColorEnable && hexo-config('theme_color.blo
 // page
 $body-bg = #fff
 $a-link-color = #99a9bf
-$sticky-color = $light-orange
+$sticky-color = $my-color
 $theme-meta-color = $themeColorEnable && hexo-config('theme_color.meta_color') ? convert(hexo-config('theme_color.meta_color')) : #858585
 // sidebar
 $sidebar-background = #f6f8fa
